@@ -17,7 +17,7 @@ module.exports = {
 
     // Best Practices
     "block-scoped-var": "error",
-    curly: ["error", "multi"],
+    curly: ["error", "all"],
     "default-case-last": "error",
     "dot-location": ["error", "property"],
     eqeqeq: "error",
