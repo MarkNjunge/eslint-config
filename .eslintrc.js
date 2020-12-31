@@ -50,8 +50,8 @@ module.exports = {
       {
         overrides: {
           if: { after: true },
-          for: { after: false },
-          while: { after: false },
+          for: { after: true },
+          while: { after: true },
         },
       },
     ],
