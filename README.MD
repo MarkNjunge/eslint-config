@@ -15,3 +15,10 @@ Add it to the `extends` section of your `.eslintrc` file.
 ```javascript
 extends: ["...", "@marknjunge/eslint-config"]
 ```
+
+Add the following helpful scripts
+
+```json
+"lint": "eslint **/*.js",
+"lint:fix": "eslint **/*.js --fix"
+```
