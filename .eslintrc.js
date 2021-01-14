@@ -30,6 +30,9 @@ module.exports = {
     "no-return-await": "error",
     yoda: ["error", "never", { exceptRange: true }],
 
+    // Variables
+    "no-unused-vars": "warn",
+
     // Stylistic Issues
     "array-bracket-newline": ["error", { multiline: true }],
     "block-spacing": "error",
