@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.3.0
+
+- Change `no-unused-vars` to warning (4ab1851c3cab610aa32b409278df24aba44c91d5)
+
 # 1.2.0
 
 - Remove `defaiult-case-last` (d8b233e665107b75b15bca6d71078e1491617d5a)
