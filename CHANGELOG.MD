@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.2.0
+
+- Remove `defaiult-case-last` (d8b233e665107b75b15bca6d71078e1491617d5a)
+
 # 1.1.0
 
 - Update `keyword-spacing` (8afe97d945ed75f8abf2b72edeb1437a066f66aa)
