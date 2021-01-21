@@ -1,5 +1,11 @@
 # Changelog
 
+# 1.4.0 
+
+- Change func-style to expression (912ce79015ffc641dc6210e3b3f0d1b1002d8dc24)
+
+- Change no-empty-function to warn (517f868c9904f3d1239fc784e6aa8ce3b644f92d)
+
 # 1.3.0
 
 - Change `no-unused-vars` to warning (4ab1851c3cab610aa32b409278df24aba44c91d5)
