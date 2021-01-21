@@ -43,7 +43,7 @@ module.exports = {
     "computed-property-spacing": ["error", "never"],
     "eol-last": ["error", "always"],
     "func-call-spacing": ["error", "never"],
-    "func-style": ["error", "declaration"],
+    "func-style": ["error", "expression"],
     "implicit-arrow-linebreak": ["error", "beside"],
     indent: ["error", 2],
     "key-spacing": ["error", { beforeColon: false }],
