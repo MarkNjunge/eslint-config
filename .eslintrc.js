@@ -21,7 +21,7 @@ module.exports = {
     "dot-location": ["error", "property"],
     eqeqeq: "error",
     "no-else-return": "error",
-    "no-empty-function": "error",
+    "no-empty-function": "warn",
     "no-implicit-coercion": "error",
     "no-lone-blocks": "error",
     "no-multi-spaces": "error",
