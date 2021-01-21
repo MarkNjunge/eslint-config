@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Mark Njung'e",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarkNjunge/eslint-config"
+  },
   "peerDependencies": {
     "eslint": ">= 7"
   },
