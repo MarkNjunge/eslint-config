@@ -1,6 +1,10 @@
 # Changelog
 
-# 1.4.0 
+# 1.5.0
+
+- Remove func-style
+
+# 1.4.0
 
 - Change func-style to expression (912ce79015ffc641dc6210e3b3f0d1b1002d8dc24)
 
