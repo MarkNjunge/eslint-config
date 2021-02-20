@@ -71,7 +71,7 @@ module.exports = {
     "max-lines-per-function": ["error", { max: 30, skipBlankLines: true, skipComments: true }],
     "max-nested-callbacks": ["error", { max: 3 }],
     "max-params": ["error", { max: 4 }],
-    "multiline-ternary": ["error", "never"],
+    "multiline-ternary": ["error", "always"],
     "new-cap": "error",
     "new-parens": "error",
     "newline-per-chained-call": ["error", { ignoreChainWithDepth: 2 }],
