@@ -75,7 +75,7 @@ module.exports = {
     "new-cap": "error",
     "new-parens": "error",
     "newline-per-chained-call": ["error", { ignoreChainWithDepth: 2 }],
-    "no-inline-comments": "error",
+    "no-inline-comments": "off",
     "no-mixed-operators": "error",
     "no-multiple-empty-lines": ["error", { max: 2, maxEOF: 0 }],
     "no-trailing-spaces": "error",
