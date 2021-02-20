@@ -1,5 +1,11 @@
 # Changelog
 
+# 1.6.0
+
+- Change no-inline-comments to off
+  
+- Change multiline-ternary to always
+
 # 1.5.0
 
 - Remove func-style
