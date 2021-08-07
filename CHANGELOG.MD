@@ -1,9 +1,14 @@
 # Changelog
 
+# 1.7.0
+
+- Remove multiline-ternary
+
+- Change max-lines-per-function to 40
+
 # 1.6.0
 
 - Change no-inline-comments to off
-  
 - Change multiline-ternary to always
 
 # 1.5.0
