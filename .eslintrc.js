@@ -68,7 +68,7 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
-    "max-lines-per-function": ["error", { max: 30, skipBlankLines: true, skipComments: true }],
+    "max-lines-per-function": ["error", { max: 40, skipBlankLines: true, skipComments: true }],
     "max-nested-callbacks": ["error", { max: 3 }],
     "max-params": ["error", { max: 4 }],
     "new-cap": "error",
