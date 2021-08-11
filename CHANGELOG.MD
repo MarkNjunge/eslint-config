@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.8.0
+
+- Add quote-props: "consistent-as-needed"
+
 # 1.7.0
 
 - Remove multiline-ternary
