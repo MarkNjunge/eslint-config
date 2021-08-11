@@ -89,7 +89,7 @@ module.exports = {
       "error",
       { blankLine: "always", prev: "*", next: "return" },
     ],
-    "quote-props": "consistent-as-needed",
+    "quote-props": ["error", "consistent-as-needed"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
     "semi-style": ["error", "last"],
