@@ -4,11 +4,11 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2020: true,
-    node: true,
+    node: true
   },
   extends: "eslint:recommended",
   parserOptions: {
-    ecmaVersion: 11,
+    ecmaVersion: 11
   },
   rules: {
     // Possible Errors
@@ -19,8 +19,8 @@ module.exports = {
     "block-scoped-var": "error",
     curly: ["error", "all"],
     "dot-location": ["error", "property"],
-    eqeqeq: "error",
-    "no-else-return": "error",
+    eqeqeq: "off",
+    "no-else-return": "off",
     "no-empty-function": "warn",
     "no-implicit-coercion": "error",
     "no-lone-blocks": "error",
@@ -52,9 +52,9 @@ module.exports = {
         overrides: {
           if: { after: true },
           for: { after: true },
-          while: { after: true },
-        },
-      },
+          while: { after: true }
+        }
+      }
     ],
     "linebreak-style": ["error", "unix"],
     "max-depth": ["error", { max: 4 }],
@@ -65,8 +65,8 @@ module.exports = {
         ignoreTrailingComments: true,
         ignoreUrls: true,
         ignoreStrings: true,
-        ignoreRegExpLiterals: true,
-      },
+        ignoreRegExpLiterals: true
+      }
     ],
     "max-lines-per-function": ["error", { max: 40, skipBlankLines: true, skipComments: true }],
     "max-nested-callbacks": ["error", { max: 3 }],
@@ -85,10 +85,7 @@ module.exports = {
     "object-property-newline": ["error", { allowAllPropertiesOnSameLine: true }],
     "one-var": ["error", "never"],
     "operator-linebreak": ["error", "after"],
-    "padding-line-between-statements": [
-      "error",
-      { blankLine: "always", prev: "*", next: "return" },
-    ],
+    "padding-line-between-statements": ["off"],
     "quote-props": ["error", "consistent-as-needed"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
@@ -111,6 +108,6 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "prefer-template": "error",
-    "template-curly-spacing": "error",
-  },
+    "template-curly-spacing": "error"
+  }
 };
