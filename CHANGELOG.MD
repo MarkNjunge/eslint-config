@@ -1,5 +1,11 @@
 # Changelog
 
+# 1.9.0
+
+- eqeqeq: off
+- no-else-return: off
+- padding-line-between-statements: off
+
 # 1.8.0
 
 - Add quote-props: "consistent-as-needed"
