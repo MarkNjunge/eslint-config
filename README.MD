@@ -1,6 +1,6 @@
 # @marknjunge/eslint-config
 
-![npm (scoped)](https://img.shields.io/npm/v/@marknjunge/eslint-config)
+[![npm (scoped)](https://img.shields.io/npm/v/@marknjunge/eslint-config)](https://www.npmjs.com/package/@marknjunge/eslint-config)
 
 My ESLint config
 
