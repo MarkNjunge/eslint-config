@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.10.0
+
+- Update space-before-function-paren to allow anonymous and async
+
 # 1.9.0
 
 - eqeqeq: off
