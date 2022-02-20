@@ -37,7 +37,7 @@ module.exports = {
     "array-bracket-newline": ["error", { multiline: true }],
     "block-spacing": "error",
     "brace-style": ["error", "1tbs"],
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": "off",
     "comma-spacing": "error",
     "comma-style": "error",
     "computed-property-spacing": ["error", "never"],
