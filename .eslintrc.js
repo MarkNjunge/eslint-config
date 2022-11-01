@@ -70,7 +70,7 @@ module.exports = {
     ],
     "max-lines-per-function": ["error", { max: 40, skipBlankLines: true, skipComments: true }],
     "max-nested-callbacks": ["error", { max: 3 }],
-    "max-params": ["error", { max: 4 }],
+    "max-params": "off",
     "new-cap": "error",
     "new-parens": "error",
     "newline-per-chained-call": ["error", { ignoreChainWithDepth: 2 }],
