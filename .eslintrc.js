@@ -4,11 +4,11 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2020: true,
-    node: true
+    node: true,
   },
   extends: "eslint:recommended",
   parserOptions: {
-    ecmaVersion: 11
+    ecmaVersion: 11,
   },
   rules: {
     // Possible Errors
@@ -17,9 +17,9 @@ module.exports = {
 
     // Best Practices
     "block-scoped-var": "error",
-    curly: ["error", "all"],
+    "curly": ["error", "all"],
     "dot-location": ["error", "property"],
-    eqeqeq: "off",
+    "eqeqeq": "off",
     "no-else-return": "off",
     "no-empty-function": "warn",
     "no-implicit-coercion": "error",
@@ -28,7 +28,7 @@ module.exports = {
     "no-new-func": "error",
     "no-return-assign": "error",
     "no-return-await": "error",
-    yoda: ["error", "never", { exceptRange: true }],
+    "yoda": ["error", "never", { exceptRange: true }],
 
     // Variables
     "no-unused-vars": "warn",
@@ -44,7 +44,7 @@ module.exports = {
     "eol-last": ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "implicit-arrow-linebreak": ["error", "beside"],
-    indent: ["error", 2],
+    "indent": ["error", 2],
     "key-spacing": ["error", { beforeColon: false }],
     "keyword-spacing": [
       "error",
@@ -52,9 +52,9 @@ module.exports = {
         overrides: {
           if: { after: true },
           for: { after: true },
-          while: { after: true }
-        }
-      }
+          while: { after: true },
+        },
+      },
     ],
     "linebreak-style": ["error", "unix"],
     "max-depth": ["error", { max: 4 }],
@@ -65,8 +65,8 @@ module.exports = {
         ignoreTrailingComments: true,
         ignoreUrls: true,
         ignoreStrings: true,
-        ignoreRegExpLiterals: true
-      }
+        ignoreRegExpLiterals: true,
+      },
     ],
     "max-lines-per-function": ["error", { max: 40, skipBlankLines: true, skipComments: true }],
     "max-nested-callbacks": ["error", { max: 3 }],
@@ -87,13 +87,13 @@ module.exports = {
     "operator-linebreak": ["error", "after"],
     "padding-line-between-statements": ["off"],
     "quote-props": ["error", "consistent-as-needed"],
-    quotes: ["error", "double"],
-    semi: ["error", "always"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
     "semi-style": ["error", "last"],
     "space-before-blocks": "error",
     "space-before-function-paren": [
       "error",
-      { anonymous: "always", named: "never", asyncArrow: "always" }
+      { anonymous: "always", named: "never", asyncArrow: "always" },
     ],
     "space-in-parens": ["error", "never"],
     "space-infix-ops": "error",
@@ -111,6 +111,6 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "prefer-template": "error",
-    "template-curly-spacing": "error"
-  }
+    "template-curly-spacing": "error",
+  },
 };
