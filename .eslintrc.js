@@ -59,9 +59,9 @@ module.exports = {
     "linebreak-style": ["error", "unix"],
     "max-depth": ["error", { max: 4 }],
     "max-len": [
-      "error",
+      "warn",
       {
-        code: 100,
+        code: 120,
         ignoreTrailingComments: true,
         ignoreUrls: true,
         ignoreStrings: true,
